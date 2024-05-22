@@ -54,25 +54,40 @@
     
   </div>
   <div class="flex  flex-col-2 justify-between mt-10 ">
-    <div class=" border-gray-400 mt-3 p-4  w-1/3 h-48 ml-28 rounded-xl  shadow-slate-300 shadow-xl border-spacing-4 ">
-      
-      <p class="text-indigo-800 font-bold text-2xl font-serif"> Created by: </p>
-      <ol class="font-mono">
-        <li>Justin Roiland</li>
-         
-        <li> Dan Harmon</li>
-      </ol>
-    </div>
-    <div class=" border-gray-400 mt-3 p-4 w-1/3 h-48 mr-28 rounded-xl  shadow-slate-300 shadow-xl border-spacing-4 ">
-      <p>
-        <span class="font-bold text-indigo-700 text-2xl font-serif">Stars</span> <br />
-        <ul class="font-mono" >
-        <li>Chris Parnell</li>
-        <li>Spencer Grammer</li>
-        <li>Sarah Chalke</li>
-      </ul>
-      </p>
-    </div>
+    <div class="border-gray-400 mt-3 p-4 w-1/3 h-64 ml-28 rounded-xl shadow-slate-300 shadow-xl border-spacing-4">
+  <p class="text-indigo-800 font-bold text-2xl font-serif">Created by:</p>
+  <ol class="font-mono mt-2">
+    <li class="flex items-center mb-2">
+      <img src="../assets/creator1.jpg" class="w-16 h-16 rounded-full mr-4">
+      <span class="text-lg">Justin Roiland</span>
+    </li>
+    <li class="flex items-center">
+      <img src="../assets/creator2.jpg" class="w-16 h-16 rounded-full mr-4">
+      <span class="text-lg">Dan Harmon</span>
+    </li>
+  </ol>
+</div>
+
+    <div class="border-gray-400 mt-3 p-4 w-1/3 h-64 mr-28 rounded-xl shadow-slate-300 shadow-xl border-spacing-4">
+  <p>
+    <span class="font-bold text-indigo-700 text-2xl font-serif">Stars</span> <br />
+    <ul class="font-mono">
+      <li class="flex items-center mb-2">
+        <img src="../assets/img1.jpg" class="w-16 h-16 rounded-full mr-4">
+        <span class="text-lg">Chris Parnell</span>
+      </li>
+      <li class="flex items-center mb-2">
+        <img src="../assets/image2.jpg" class="w-16 h-16 rounded-full mr-4">
+        <span class="text-lg">Spencer Grammer</span>
+      </li>
+      <li class="flex items-center">
+        <img src="../assets/image3.jpg" class="w-16 h-16 rounded-full mr-4">
+        <span class="text-lg">Sarah Chalke</span>
+      </li>
+    </ul>
+  </p>
+</div>
+
   </div>
   <div class="flex  flex-col-2 justify-between mt-10 ">
     <div class=" border-gray-400 mt-3 p-4  w-1/3 h-48 ml-28 rounded-xl  shadow-slate-300 shadow-xl border-spacing-4 ">
