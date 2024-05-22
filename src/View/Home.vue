@@ -98,11 +98,11 @@
   </div>
   
 <!-- episodes-->
-<div class="flex justify-center text-3xl mt-4">
+<div class="flex justify-center text-3xl mt-6 font-mono">
   <h1 >This is list of Episode names</h1>
 </div>
 
-<div class="flex overflow-x-auto whitespace-nowrap h-32 ">
+<div class="flex overflow-x-auto whitespace-nowrap h-32 mt-10 ">
     <RouterLink
       v-for="episode in episodResult?.episodes.results || []"
       :key="episode.id"
@@ -114,10 +114,10 @@
   </div>
   
    <!-- characters -->
-  <div class="flex justify-center text-3xl mt-4">
+  <div class="flex justify-center text-3xl mt-6 font-mono">
   <h1 >This is list of Character names</h1>
 </div>
-  <div class="flex overflow-x-auto whitespace-nowrap h-32">
+  <div class="flex overflow-x-auto whitespace-nowrap h-32 mt-10">
     <RouterLink
     v-for="character in characterResult?.characters.results || [] "
       :key="character.id"
@@ -131,11 +131,11 @@
  
   
   <!-- location -->
-  <div class="flex justify-center text-3xl mt-4">
+  <div class="flex justify-center text-3xl mt-6 font-mono">
   <h1 >This is list of location names</h1>
 </div>
  
-  <div class="grid grid-cols-4 gap-4 h-[160px] overflow-y-auto mb-10">
+  <div class="grid grid-cols-4 gap-4 h-[160px] overflow-y-auto mb-10 mt-10">
   <div v-for="location in locationResult?.locations.results || []" :key="location.id">
     <RouterLink :to="`/location/${location.id}`" class="block cursor-pointer">
       <div class="bg-gray-200  rounded p-4 text-center text-indigo-600 font-bold shadow-slate-400 shadow-xl border-spacing-4">
@@ -262,7 +262,7 @@ locations {
 
 
 `)
-const rating = 9.1;
+const rating = 4.5;
 
 </script>
 
