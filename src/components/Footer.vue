@@ -2,11 +2,12 @@
 <template>
   <footer class="bg-gray-900 text-gray-300 py-6">
     <div class="container mx-auto flex justify-between items-center">
-      <p class="text-center sm:text-left">© 2024 Your App Name. All rights reserved.</p>
+      <p class="text-center sm:text-left">© 2024 <span class="text-orange-400 text-2xl font-serif font-bold"> Rcky And Morty</span>. All rights reserved.</p>
       <div class="flex space-x-4">
-        <a href="#" class="hover:text-white">About</a>
-        <a href="#" class="hover:text-white">Contact</a>
-        <a href="#" class="hover:text-white">Privacy Policy</a>
+        <p>Uploaded :</p>
+         <a href="https://github.com/zedagm21/ricky-and-morty" target="_blank" class="text-orange-400 text-2xl font-serif font-bold hover:underline">github</a><br>
+         <p>Figma: </p>
+         <a target="_blank " href="https://www.figma.com/design/Q8RvYHcOAwah9iFSnb44FI/Untitled?node-id=0-1&t=3ZfBz1aPnoGE1KU4-0" class="text-orange-400 text-2xl font-serif font-bold hover:underline">Design</a>
       </div>
     </div>
   </footer>
