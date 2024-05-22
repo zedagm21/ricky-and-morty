@@ -282,12 +282,12 @@ const rating = 4.5;
 </script>
 
 <style scoped>
-/* Add any additional styling if needed */
+
 .star {
   font-size: 2rem;
-  color: #d3d3d3; /* Unfilled star color */
+  color: #d3d3d3; 
 }
 .star.filled {
-  color: #ffc107; /* Filled star color */
+  color: #ffc107; 
 }
 </style>
