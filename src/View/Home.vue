@@ -90,15 +90,15 @@
 
   </div>
   <div class="flex  flex-col-2 justify-between mt-10 ">
-    <div class=" border-gray-400 mt-3 p-4  w-1/3 h-48 ml-28 rounded-xl  shadow-slate-300 shadow-xl border-spacing-4 ">
-      <p class="text-indigo-800 font-bold text-2xl font-serif">
-       Rating 
-        
-      </p>
-      <div class="rating">
-        <span v-for="n in 5" :key="n" class="star" :class="{ filled: n <= rating }">&#9733;</span>
-      </div>
-    </div>
+    <div class="border-gray-400 mt-3 p-4 w-1/3 h-48 ml-28 rounded-xl shadow-slate-300 shadow-xl border-spacing-4">
+  <p class="text-indigo-800 font-bold text-2xl font-serif">
+    Rating
+  </p>
+  <div class="flex">
+    <span v-for="n in 5" :key="n" class="text-4xl text-gray-300" :class="{ 'text-yellow-500': n <= rating }">&#9733;</span>
+  </div>
+</div>
+
     <div class=" border-gray-400 mt-3 p-4  w-1/3 h-48 mr-28 rounded-xl  shadow-slate-300 shadow-xl border-spacing-4 ">
       <p class="text-indigo-800 font-bold text-2xl font-serif">Genre: </p>
       <ul class="font-mono">
@@ -281,13 +281,4 @@ const rating = 4.5;
 
 </script>
 
-<style scoped>
 
-.star {
-  font-size: 2rem;
-  color: #d3d3d3; 
-}
-.star.filled {
-  color: #ffc107; 
-}
-</style>

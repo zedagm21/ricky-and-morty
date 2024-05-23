@@ -6,43 +6,36 @@
           <p>R&M</p>
         </div>
         <ul class="flex text-center justify-end">
-          <RouterLink to="/" exact-active-class="active-link" class="mx-5">
-            <li>Home</li>
+          <RouterLink
+            to="/"
+            exact-active-class="border-2 border-white rounded-lg text-orange-400 font-bold"
+            class="mx-5"
+          >
+            <li class="list-none">Home</li>
           </RouterLink>
-          <RouterLink to="/episode" active-class="active-link" class="mx-5 ">
-            <li>Episode</li>
+          <RouterLink
+            to="/episode"
+            active-class="border-2 border-white rounded-lg text-orange-400 font-bold"
+            class="mx-5"
+          >
+            <li class="list-none">Episode</li>
           </RouterLink>
-          <RouterLink to="/character" active-class="active-link" class="mx-5">
-            <li>Character</li>
+          <RouterLink
+            to="/character"
+            active-class="border-2 border-white rounded-lg text-orange-400 font-bold"
+            class="mx-5"
+          >
+            <li class="list-none">Character</li>
           </RouterLink>
-          <RouterLink to="/location" active-class="active-link" class="mx-8">
-            <li>Location</li>
+          <RouterLink
+            to="/location"
+            active-class="border-2 border-white rounded-lg text-orange-400 font-bold"
+            class="mx-8"
+          >
+            <li class="list-none">Location</li>
           </RouterLink>
         </ul>
       </div>
     </header>
   </div>
 </template>
-
-<style scoped>
-.bg-white {
-  background-color: white;
-}
-
-.shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 
-              0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.active-link {
-  border: 2px solid white;
-  border-radius: 0.75rem; /* Rounded corners */
-  color: #f97316; /* Tailwind's orange-400 */
-  font-weight: bold;
-}
-
-
-li {
-  list-style: none;
-}
-</style>
